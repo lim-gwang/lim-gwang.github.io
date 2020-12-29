@@ -1075,7 +1075,7 @@
 
       //for browsers that have implemented pointer events and fire a click after
       //every pointerup regardless of whether pointerup is on same screen location as pointerdown or not
-      slider.viewport.on('click', '.bxslider', function(e) {
+      slider.viewport.on('click', '.bxslider a', function(e) {
         if (slider.viewport.hasClass('click-disabled')) {
           e.preventDefault();
           slider.viewport.removeClass('click-disabled');
