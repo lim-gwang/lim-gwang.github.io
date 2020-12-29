@@ -12,7 +12,12 @@
 </head>
 <script>
      $(document).ready(function(){
-      $('.slider').bxSlider();
+      $('.slider').bxSlider({
+      mode:"vertical",
+           controls:false,
+           pager:true,
+           slideMargin:20,
+      });
     });
 </script>
 <body>
